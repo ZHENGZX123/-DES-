@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/swf3th"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play swf" />
+
+    <Button
+        android:id="@+id/html"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play html" />
+
+    <Button
+        android:id="@+id/flv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play flv" />
+
+    <Button
+        android:id="@+id/mp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play mp3" />
+
+    <Button
+        android:id="@+id/png"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play png" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="300dip"
+        android:layout_height="300dip" />
+
+</LinearLayout>
